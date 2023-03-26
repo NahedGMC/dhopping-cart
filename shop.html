@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+      <img class="logo" src="https://www.thefragranceshop.ca/image/cache/catalog/Logo/Logo-179x50.png">
+      <a href="http://127.0.0.1:5500/dom.html">Home</a>
+      <a href="#contact">Contact US</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="product2">
+      <img class="img-product1" src="produit3.jpg">
+      <h3>Sapphire Dreams</h3>  
+      <p>Price: $179.00</p>
+      <button class="add-to-cart" data-name="Sapphire Dreams" data-price="179.00">Add to Cart</button>
+    </div>
+    
+    <div class="product2">
+      <img class="img-product2" src="produit1.jpg">
+      <h3>Jason WU</h3>
+      <p>Price: $250.00</p>
+      <button class="add-to-cart" data-name="Jason WU" data-price="250.00">Add to Cart</button>
+    </div>
+    <br>
+    <div class="product3">
+      <img class="img-product3" src="product green.jpg">
+      <h3>Emerald Mist</h3>
+      <p>Price: $310.00</p>
+      <button class="add-to-cart" data-name="Emerald Mist" data-price="310.00">Add to Cart</button>
+    </div>
+
+    <div id="shopping-cart">
+      <p style="font-size: 1em;">Your &#128722;</p>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  
+
+    <script src="dom.js"></script>
+    </body>
+    </html>
